@@ -26,7 +26,7 @@ namespace AlternatePods
     //[BepInDependency("com.TeamMoonstorm.Starstorm2", BepInDependency.DependencyFlags.SoftDependency)]
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.DifferentModVersionsAreOk)]
 
-    #region Compats
+    #region BepinDependencyCompats
 
     [BepInDependency("com.Gnome.ChefMod", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("com.EnforcerGang.Enforcer", BepInDependency.DependencyFlags.SoftDependency)]
@@ -39,6 +39,7 @@ namespace AlternatePods
     [BepInDependency("com.TheTimeSweeper.TeslaTrooper", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("com.rob.HenryMod", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("com.rob.DiggerUnearthed", BepInDependency.DependencyFlags.SoftDependency)]
+    #endregion
     public class AlternatePodsPlugin : BaseUnityPlugin
     {
         internal static BepInEx.Logging.ManualLogSource _logger;
