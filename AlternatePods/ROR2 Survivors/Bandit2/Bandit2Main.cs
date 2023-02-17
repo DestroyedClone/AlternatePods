@@ -13,7 +13,7 @@ namespace AlternatePods
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Bandit2/Bandit2Body.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {
-            podBases.Add(new PaintJob());
+
         }
 
         public override void Init()

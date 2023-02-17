@@ -22,6 +22,7 @@ namespace AlternatePods
                 return;
             }
             SetupPodSlot();
+            AddSharedPodsToChar();
             AddPodsToPodChar();
             RegisterPods();
         }
@@ -39,6 +40,13 @@ namespace AlternatePods
                 shouldLoad &= AlternatePodsPlugin.cfgAddMonsterPods.Value;
             }
             return shouldLoad;
+        }
+
+        public void AddSharedPodsToChar()
+        {
+            podBases.Add(new PaintJob());
+            podBases.Add(new SurvivorPod());
+            podBases.Add(new RoboPod());
         }
 
         public virtual void AddPodsToPodChar()

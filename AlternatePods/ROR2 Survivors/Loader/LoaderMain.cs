@@ -13,7 +13,6 @@ namespace AlternatePods
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Loader/LoaderBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {
-            podBases.Add(new PaintJob());
         }
 
         public override void Init()
