@@ -52,6 +52,10 @@ namespace AlternatePods
                         var bodySkin = SkinCatalog.GetSkinDef((SkinIndex)body.skinIndex);
                         //var bodyMat = body.modelLocator.modelTransform.GetComponent<ModelSkinController>().skins[body.skinIndex].meshReplacements[0].renderer.material;
                         var bodyMat = bodySkin.rendererInfos[0].defaultMaterial;
+                        if (bodyMat == null)
+                        {
+                            bodyMat = body.modelLocator?.modelTransform?.GetComponent<ModelSkinController>()?.skins[body.skinIndex]?.meshReplacements[0].renderer?.material;
+                        }
                         materialToSet = bodyMat;
                     }
                 }
