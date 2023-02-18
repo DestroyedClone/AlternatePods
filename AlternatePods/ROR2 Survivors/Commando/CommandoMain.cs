@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class CommandoMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Commando/CommandoBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {

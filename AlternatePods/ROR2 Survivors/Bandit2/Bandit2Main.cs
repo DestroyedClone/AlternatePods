@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class Bandit2Main : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Bandit2/Bandit2Body.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {

@@ -16,6 +16,7 @@ namespace AlternatePods
         public abstract string podToken { get; }
         public abstract Texture2D icon { get; }
         public static GameObject podPrefab { get; set; }
+        public abstract UnlockableDef UnlockableDef { get; }
         
         public virtual GameObject CreatePodPrefab()
         {

@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class MageMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Mage/MageBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {

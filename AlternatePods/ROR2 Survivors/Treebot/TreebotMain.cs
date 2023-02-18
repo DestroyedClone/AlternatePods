@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class TreebotMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Treebot/TreebotBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {

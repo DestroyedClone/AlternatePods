@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class HuntressMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Huntress/HuntressBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {

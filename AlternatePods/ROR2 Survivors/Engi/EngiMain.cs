@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class EngiMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Engi/EngiBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {

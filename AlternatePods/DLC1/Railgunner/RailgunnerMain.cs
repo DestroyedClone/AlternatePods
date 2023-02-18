@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class RailgunnerMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/DLC1/Railgunner/RailgunnerBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {

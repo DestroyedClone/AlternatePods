@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class ToolbotMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Toolbot/ToolbotBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {

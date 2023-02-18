@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class VoidSurvivorMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/DLC1/VoidSurvivor/VoidSurvivorBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {

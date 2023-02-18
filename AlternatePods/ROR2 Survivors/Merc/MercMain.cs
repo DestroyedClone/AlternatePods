@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class MercMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Merc/MercBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {

@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class HereticMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => 
+        public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Heretic/HereticBody.prefab").WaitForCompletion();
         public override void AddPodsToPodChar()
         {
