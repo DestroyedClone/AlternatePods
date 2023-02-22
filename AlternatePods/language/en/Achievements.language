@@ -6,8 +6,8 @@
 		"ACHIEVEMENT_PODMOD_BEATGAMEONMONSOONWITHALTSKIN_DESCRIPTION": "Beat the game on Monsoon with an alternate skin.",
 		"ACHIEVEMENT_PODMOD_STARTRUNASTOOLBOT_NAME": "[PodMod] Shared: Robopod",
 		"ACHIEVEMENT_PODMOD_STARTRUNASTOOLBOT_DESCRIPTION": "As MUL-T, crash land onto the planet.",
-		"ACHIEVEMENT_PODMOD__NAME": "[PodMod] Shared: No pod",
-		"ACHIEVEMENT_PODMOD__DESCRIPTION": "Reach $0 after a purchase.",
+		"ACHIEVEMENT_PODMOD_RESULTWITHZEROCASH_NAME": "[PodMod] Shared: No pod",
+		"ACHIEVEMENT_PODMOD_RESULTWITHZEROCASH_DESCRIPTION": "Reach $0 after a purchase.",
 
 		"ACHIEVEMENT_PODMOD_BANDIT2MASTERY_NAME": "[PodMod] Bandit: Lucky",
 		"ACHIEVEMENT_PODMOD_BANDIT2MASTERY_DESCRIPTION": "As Bandit, beat the game on Monsoon using your alternate skin.",

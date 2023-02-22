@@ -1,14 +1,12 @@
-using R2API;
-using RoR2;
-using UnityEngine;
-using System.Collections.Generic;
-using BepInEx.Configuration;
-using UnityEngine.AddressableAssets;
+﻿using RoR2;
 using RoR2.Achievements;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace AlternatePods.Achievements
 {
-    public abstract class BasePerSurvivorClearGameMonsoonWithAlternateSkinAchievement : BaseModdedAchievement
+    public abstract class BasePerSurvivorClearGameMonsoonWithRiskyRunAchievement : BaseModdedAchievement
     {
         public override void OnBodyRequirementMet()
         {
@@ -41,6 +39,10 @@ namespace AlternatePods.Achievements
                 }
             }
         }
-    }
 
+        private bool IsRiskyRun(Inventory inventory)
+        {
+
+        }
+    }
 }
