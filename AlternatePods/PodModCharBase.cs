@@ -62,8 +62,12 @@ namespace AlternatePods
         {
             foreach (var pod in PodBases)
             {
-                string skillDefName = $"PodMod_{BodyPrefab.name}+{pod.podName}";
-                var skillDef = CreateSkillDef(skillDefName, pod.podToken + "_NAME", pod.podToken + "_DESC");
+                string skillDefName = $"PodMod_{BodyPrefab.name}+{pod.PodName}";
+                var skillDef = CreateSkillDef(skillDefName, pod.PodToken + "_NAME", pod.PodToken + "_DESC");
+                if (pod.Achievement != null && pod.UnlockableDef == null)
+                {
+                    pod.UnlockableDef = pod.CreateUnlockableDef(pod.Achievement);
+                }
                 AddSkillDef(PodSlot.skillFamily, skillDef, pod.GetPodPrefab(), pod.UnlockableDef);
             }
         }

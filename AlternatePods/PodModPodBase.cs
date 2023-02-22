@@ -7,16 +7,20 @@ using System.Text;
 using UnityEngine;
 using RoR2.Skills;
 using UnityEngine.AddressableAssets;
+using System.Xml.Linq;
+using AlternatePods.Achievements;
 
 namespace AlternatePods
 {
     public abstract class PodModPodBase
     {
-        public abstract string podName { get; }
-        public abstract string podToken { get; }
-        public abstract Texture2D icon { get; }
-        public static GameObject podPrefab { get; set; }
-        public abstract UnlockableDef UnlockableDef { get; }
+        public abstract string PodName { get; }
+        public abstract string PodToken { get; }
+        public abstract Texture2D Icon { get; }
+        public static GameObject PodPrefab { get; set; }
+        public virtual UnlockableDef UnlockableDef { get; set; }
+
+        public virtual BaseModdedAchievement Achievement { get; }
         
         public virtual GameObject CreatePodPrefab()
         {
@@ -25,9 +29,9 @@ namespace AlternatePods
 
         public virtual GameObject GetPodPrefab()
         {
-            if (!podPrefab)
-                podPrefab = CreatePodPrefab();
-            return podPrefab;
+            if (!PodPrefab)
+                PodPrefab = CreatePodPrefab();
+            return PodPrefab;
         }
 
         public GameObject CreatePodRecolor(string podName, Material material)
@@ -48,6 +52,21 @@ namespace AlternatePods
         public GameObject CreatePodRecolor (string podName, string addressableKey)
         {
             return CreatePodRecolor(podName, Addressables.LoadAssetAsync<Material>(addressableKey).WaitForCompletion());
+        }
+
+        //credit: prod https://discordapp.com/channels/562704639141740588/562704639569428506/1076911381149925396
+        public UnlockableDef CreateUnlockableDef(string identifier, string token)
+        {
+            UnlockableDef unlockableDef = ScriptableObject.CreateInstance<UnlockableDef>();
+            unlockableDef.cachedName = identifier;
+            unlockableDef.nameToken = "PODMOD_";
+            ContentAddition.AddUnlockableDef(unlockableDef);
+            return unlockableDef;
+        }
+
+        public UnlockableDef CreateUnlockableDef(BaseModdedAchievement baseModdedAchievement)
+        {
+            return CreateUnlockableDef(baseModdedAchievement.Identifier, baseModdedAchievement.NameToken);
         }
     }
 }
