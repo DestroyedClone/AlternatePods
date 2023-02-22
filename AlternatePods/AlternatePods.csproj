@@ -8,6 +8,12 @@
 	  <NullableContextOptions>disable</NullableContextOptions>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="ROR2 Survivors\Commando\CommandoACTUALDraftMain.cs" />
+    <Compile Remove="ROR2 Survivors\Commando\CommandoPaintJob.cs" />
+    <Compile Remove="ROR2 Survivors\CROCO\CrocoPaintJob.cs" />
+  </ItemGroup>
+
 
 	<ItemGroup>
 		<PackageReference Include="BepInEx.Analyzers" Version="1.0.*">
@@ -33,19 +39,15 @@
 
 
 	<ItemGroup>
-	  <Folder Include="Achievements\Captain\" />
-	  <Folder Include="Achievements\Commando\" />
-	  <Folder Include="Achievements\Croco\" />
 	  <Folder Include="Achievements\Engi\" />
 	  <Folder Include="Achievements\Heretic\" />
 	  <Folder Include="Achievements\Huntress\" />
 	  <Folder Include="Achievements\Loader\" />
-	  <Folder Include="Achievements\Mage\" />
 	  <Folder Include="Achievements\Merc\" />
-	  <Folder Include="Achievements\VoidSurvivor\" />
 	  <Folder Include="Achievements\Railgunner\" />
 	  <Folder Include="Achievements\Toolbot\" />
 	  <Folder Include="Achievements\Treebot\" />
+	  <Folder Include="Achievements\VoidSurvivor\" />
 	  <Folder Include="Icons\" />
 	</ItemGroup>
 
