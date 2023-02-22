@@ -9,9 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Achievements\Mage\MagePickupEliteModdedAchievement.cs" />
     <Compile Remove="ROR2 Survivors\Commando\CommandoACTUALDraftMain.cs" />
     <Compile Remove="ROR2 Survivors\Commando\CommandoPaintJob.cs" />
     <Compile Remove="ROR2 Survivors\CROCO\CrocoPaintJob.cs" />
+    <Compile Remove="ROR2 Survivors\Mage\Mage.cs" />
   </ItemGroup>
 
 
@@ -39,7 +41,6 @@
 
 
 	<ItemGroup>
-	  <Folder Include="Achievements\Engi\" />
 	  <Folder Include="Achievements\Heretic\" />
 	  <Folder Include="Achievements\Huntress\" />
 	  <Folder Include="Achievements\Loader\" />
