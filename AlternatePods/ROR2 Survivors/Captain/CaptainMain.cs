@@ -11,9 +11,6 @@ namespace AlternatePods
     {
         public override GameObject BodyPrefab => 
             Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Captain/CaptainBody.prefab").WaitForCompletion();
-        public override void AddPodsToPodChar()
-        {
-        }
 
         public override void Init()
         {
