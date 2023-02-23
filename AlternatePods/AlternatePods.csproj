@@ -42,7 +42,6 @@
 
 	<ItemGroup>
 	  <Folder Include="Achievements\Heretic\" />
-	  <Folder Include="Achievements\Loader\" />
 	  <Folder Include="Achievements\Merc\" />
 	  <Folder Include="Achievements\Railgunner\" />
 	  <Folder Include="Achievements\Toolbot\" />

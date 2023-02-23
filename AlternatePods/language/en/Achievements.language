@@ -95,12 +95,12 @@
 		"ACHIEVEMENT_PODMOD_HUNTRESSRISKY_NAME": "[PodMod] Remains Risky On The Planet",
 		"ACHIEVEMENT_PODMOD_HUNTRESSRISKY_DESCRIPTION": "As Engineer, defeat Mithrix with a Risk of Rain 1 run.",
 
-		"ACHIEVEMENT_PODMOD_LOADER_NAME": "[PodMod] Loader: Tachycardia",
-		"ACHIEVEMENT_PODMOD_LOADER_DESCRIPTION": "As Loader, beat the game on Monsoon using your alternate skin.",
-		"ACHIEVEMENT_PODMOD_LOADER_NAME": "[PodMod] Loader: Rebuilding",
-		"ACHIEVEMENT_PODMOD_LOADER_DESCRIPTION": "As Loader, defeat Mithrix with a Risk of Rain 1 run.",
-		"ACHIEVEMENT_PODMOD_LOADER_NAME": "[PodMod] Loader: Invite",
-		"ACHIEVEMENT_PODMOD_LOADER_DESCRIPTION": "As Loader, equip an Unstable Tesla Coil.",
+		"ACHIEVEMENT_PODMOD_LOADERMASTERY_NAME": "[PodMod] Loader: Tachycardia",
+		"ACHIEVEMENT_PODMOD_LOADERMASTERY_DESCRIPTION": "As Loader, beat the game on Monsoon using your alternate skin.",
+		"ACHIEVEMENT_PODMOD_LOADERRISKY_NAME": "[PodMod] Loader: Rebuilding",
+		"ACHIEVEMENT_PODMOD_LOADERRISKY_DESCRIPTION": "As Loader, defeat Mithrix with a Risk of Rain 1 run.",
+		"ACHIEVEMENT_PODMOD_LOADERTESLA_NAME": "[PodMod] Loader: Invite",
+		"ACHIEVEMENT_PODMOD_LOADERTESLA_DESCRIPTION": "As Loader, equip an Unstable Tesla Coil.",
 
 		"ACHIEVEMENT_PODMOD_TOOLBOT_NAME": "[PodMod] MUL-T: Recharging",
 		"ACHIEVEMENT_PODMOD_TOOLBOT_DESCRIPTION": "As MUL-T, beat the game on Monsoon using your alternate skin.",
