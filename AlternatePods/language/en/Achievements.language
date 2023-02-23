@@ -70,12 +70,12 @@
 
 		"ACHIEVEMENT_PODMOD_ENGIMASTERY_NAME": "[PodMod] Engineer: Inspiration",
 		"ACHIEVEMENT_PODMOD_ENGIMASTERY_DESCRIPTION": "As Engineer, beat the game on Monsoon using your alternate skin.",
-		"ACHIEVEMENT_PODMOD_ENGI_NAME": "[PodMod] Engineer: More Steel Than Risky",
-		"ACHIEVEMENT_PODMOD_ENGI_DESCRIPTION": "As Engineer, defeat Mithrix with a Risk of Rain 1 run.",
-		"ACHIEVEMENT_PODMOD_ENGI_NAME": "[PodMod] PHD",
-		"ACHIEVEMENT_PODMOD_ENGI_DESCRIPTION": "As Engineer, gain a Drone Commander.",
-		"ACHIEVEMENT_PODMOD_ENGI_NAME": "[PodMod] Inhumanity",
-		"ACHIEVEMENT_PODMOD_ENGI_DESCRIPTION": "As Engineer, beat the game without any biological items.",
+		"ACHIEVEMENT_PODMOD_ENGIRISKY_NAME": "[PodMod] Engineer: More Steel Than Risky",
+		"ACHIEVEMENT_PODMOD_ENGIRISKY_DESCRIPTION": "As Engineer, defeat Mithrix with a Risk of Rain 1 run.",
+		"ACHIEVEMENT_PODMOD_ENGIDRONE_NAME": "[PodMod] PHD",
+		"ACHIEVEMENT_PODMOD_ENGIDRONE_DESCRIPTION": "As Engineer, gain a Drone Commander.",
+		"ACHIEVEMENT_PODMOD_ENGIBIO_NAME": "[PodMod] Inhumanity",
+		"ACHIEVEMENT_PODMOD_ENGIBIO_DESCRIPTION": "As Engineer, beat the game without any biological items.",
 		"ACHIEVEMENT_PODMOD_ENGI_NAME": "[PodMod] Humanity",
 		"ACHIEVEMENT_PODMOD_ENGI_DESCRIPTION": "As Engineer, beat the game without any technological items.",
 
