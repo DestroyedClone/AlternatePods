@@ -156,8 +156,8 @@
 
 
 		//[HUNTRESS]
-		"PODMOD_HUNTRESS_CHAMPION_NAME": "CHAMPION HUNTER",
-		"PODMOD_HUNTRESS_CHAMPION_DESC": "We've moved onto greater things.",
+		"PODMOD_HUNTRESS_MASTERY_NAME": "CHAMPION HUNTER",
+		"PODMOD_HUNTRESS_MASTERY_DESC": "We've moved onto greater things.",
 
 		//Team Fortress 2 Sniper
 		"PODMOD_HUNTRESS_BOUNTY_NAME": "BOUNTY HUNTER",
@@ -447,7 +447,7 @@
 
 		//[PARENT]
 		"PODMOD_PARENT_EGG_NAME": "BIRTH",
-		"PODMOD_PARENT_EGG_DESC": "Rather, is this unbirth?",
+		"PODMOD_PARENT_EGG_DESC": "Rather, is this unbirth?"
 
 	}
 }

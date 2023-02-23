@@ -88,12 +88,12 @@
 		"ACHIEVEMENT_PODMOD_HERETIC_NAME": "[PodMod] With Our Weapons Combined",
 		"ACHIEVEMENT_PODMOD_HERETIC_DESCRIPTION": "Beat the game as Heretic as Commando, Bandit, Huntress, and Mercenary.",
 
-		"ACHIEVEMENT_PODMOD_HUNTRESS_NAME": "[PodMod] Huntress: Champion Hunter",
-		"ACHIEVEMENT_PODMOD_HUNTRESS_DESCRIPTION": "As Huntress, beat the game on Monsoon using your alternate skin.",
-		"ACHIEVEMENT_PODMOD_HUNTRESS_NAME": "[PodMod] Bounty Hunter",
-		"ACHIEVEMENT_PODMOD_HUNTRESS_DESCRIPTION": "As Huntress, land the killing blow on 30 different monster species in one run.",
-		"ACHIEVEMENT_PODMOD_HUNTRESS_NAME": "[PodMod] Remains Risky On The Planet",
-		"ACHIEVEMENT_PODMOD_HUNTRESS_DESCRIPTION": "As Engineer, defeat Mithrix with a Risk of Rain 1 run.",
+		"ACHIEVEMENT_PODMOD_HUNTRESSMASTERY_NAME": "[PodMod] Huntress: Champion Hunter",
+		"ACHIEVEMENT_PODMOD_HUNTRESSMASTERY_DESCRIPTION": "As Huntress, beat the game on Monsoon using your alternate skin.",
+		"ACHIEVEMENT_PODMOD_HUNTRESSCHECKLIST_NAME": "[PodMod] Bounty Hunter",
+		"ACHIEVEMENT_PODMOD_HUNTRESSCHECKLIST_DESCRIPTION": "As Huntress, land the killing blow on 30 different monster species in one run.",
+		"ACHIEVEMENT_PODMOD_HUNTRESSRISKY_NAME": "[PodMod] Remains Risky On The Planet",
+		"ACHIEVEMENT_PODMOD_HUNTRESSRISKY_DESCRIPTION": "As Engineer, defeat Mithrix with a Risk of Rain 1 run.",
 
 		"ACHIEVEMENT_PODMOD_LOADER_NAME": "[PodMod] Loader: Tachycardia",
 		"ACHIEVEMENT_PODMOD_LOADER_DESCRIPTION": "As Loader, beat the game on Monsoon using your alternate skin.",
