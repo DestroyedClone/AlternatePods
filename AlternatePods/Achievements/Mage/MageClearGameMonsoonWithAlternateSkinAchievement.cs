@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Mage
 {
-    [RegisterAchievement("MageClearGameMonsoonWithAlternateSkin", "PodMod.Mage.Mastery", "FreeMage", null)]
+    [RegisterAchievement("MageClearGameMonsoonWithAlternateSkin", "PodMod.Mage.Mastery", "Skins.Mage.Alt1", null)]
     public class MageClearGameMonsoonWithAlternateSkinAchievement : BasePerSurvivorClearGameMonsoonWithAlternateSkinAchievement
     {
         public override string NameToken => "PODMOD_MAGEMASTERY";

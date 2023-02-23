@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Commando
 {
-    [RegisterAchievement("CommandoClearGameMonsoonWithAlternateSkin", "PodMod.Commando.Mastery", null, null)]
+    [RegisterAchievement("CommandoClearGameMonsoonWithAlternateSkin", "PodMod.Commando.Mastery", "Skins.Commando.Alt1", null)]
     public class CommandoClearGameMonsoonWithAlternateSkinAchievement : BaseModdedAchievement
     {
         public override string NameToken => "PODMOD_COMMANDOMASTERY";

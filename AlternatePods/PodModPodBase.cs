@@ -59,7 +59,7 @@ namespace AlternatePods
         {
             UnlockableDef unlockableDef = ScriptableObject.CreateInstance<UnlockableDef>();
             unlockableDef.cachedName = identifier;
-            unlockableDef.nameToken = "PODMOD_";
+            unlockableDef.nameToken = token;
             ContentAddition.AddUnlockableDef(unlockableDef);
             return unlockableDef;
         }

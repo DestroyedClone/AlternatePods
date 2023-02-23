@@ -42,7 +42,7 @@ namespace AlternatePods.Achievements
 
         private bool IsRiskyRun(Inventory inventory)
         {
-
+            return false;
         }
     }
 }

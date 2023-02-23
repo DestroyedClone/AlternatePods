@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Huntress
 {
-    [RegisterAchievement("MageClearGameMonsoonWithAlternateSkin", "PodMod.Huntress.Checklist", null, typeof(HuntressChecklistServerAchievement))]
+    [RegisterAchievement("HuntressChecklist", "PodMod.Huntress.Checklist", null, typeof(HuntressChecklistServerAchievement))]
     public class HuntressChecklistAchievement : BaseModdedAchievement
     {
         public override string NameToken => "PODMOD_HUNTRESSCHECKLIST";

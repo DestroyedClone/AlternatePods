@@ -10,14 +10,15 @@ namespace AlternatePods
 {
     public class SurvivorPod : PodModPodBase
     {
-        public override string podName => "SurvivorPod";
-        public override string podToken => "PODMOD_SHARED_SURVIVORPOD";
-        public override Texture2D icon => null;
+        public override string PodName => "SurvivorPod";
+        public override string PodToken => "PODMOD_SHARED_SURVIVORPOD";
+        public override Texture2D Icon => null;
+        public override UnlockableDef UnlockableDef => CreateUnlockableDef("PodMod.Shared.SurvivorPod", "PODMOD_STAYINPODFORONEMINUTE");
 
         public override GameObject CreatePodPrefab()
         {
-            var podPrefabInstance = PrefabAPI.InstantiateClone(Assets.genericPodPrefab, podName, true);
-            podPrefab = podPrefabInstance;
+            var podPrefabInstance = PrefabAPI.InstantiateClone(Assets.genericPodPrefab, PodName, true);
+            PodPrefab = podPrefabInstance;
             return podPrefabInstance;
         }
 

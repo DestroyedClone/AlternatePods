@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Bandit2
 {
-    [RegisterAchievement("CrocoClearGameMonsoonWithAlternateSkin", "PodMod.Croco.Mastery", "BeatArena", null)]
+    [RegisterAchievement("CrocoClearGameMonsoonWithAlternateSkin", "PodMod.Croco.Mastery", "Skins.Croco.Alt1", null)]
     public class CrocoClearGameMonsoonWithAlternateSkinAchievement : BasePerSurvivorClearGameMonsoonWithAlternateSkinAchievement
     {
         public override string NameToken => "PODMOD_CROCOMASTERY";

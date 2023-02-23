@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Loader
 {
-    [RegisterAchievement("LoaderClearGameMonsoonWithAlternateSkin", "PodMod.Loader.Mastery", "DefeatSuperRoboBallBoss", null)]
+    [RegisterAchievement("LoaderClearGameMonsoonWithAlternateSkin", "PodMod.Loader.Mastery", "Skins.Loader.Alt1", null)]
     public class LoaderClearGameMonsoonWithAlternateSkinAchievement : BasePerSurvivorClearGameMonsoonWithAlternateSkinAchievement
     {
         public override string NameToken => "PODMOD_LOADERMASTERY";

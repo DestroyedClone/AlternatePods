@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Engi
 {
-    [RegisterAchievement("EngiClearGameMonsoonWithAlternateSkin", "PodMod.Engi.Mastery", "Complete30StagesCareer", null)]
+    [RegisterAchievement("EngiClearGameMonsoonWithAlternateSkin", "PodMod.Engi.Mastery", "Skins.Engi.Alt1", null)]
     public class EngiClearGameMonsoonWithAlternateSkinAchievement : BasePerSurvivorClearGameMonsoonWithAlternateSkinAchievement
     {
         public override string NameToken => "PODMOD_ENGIMASTERY";

@@ -6,19 +6,19 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Shared
 {
-    [RegisterAchievement("SharedClearGameMonsoonWithAlternateSkin", "Skins.Bandit2.Alt1", "CompleteThreeStages", null)]
+    [RegisterAchievement("SharedClearGameMonsoonWithAlternateSkin", "PodMod.Shared.Paintjob", "Characters.Captain", null)]
     public class SharedClearGameMonsoonWithAlternateSkinAchievement : BaseAchievement
     {
-        public override void OnBodyRequirementMet()
+        public override void OnInstall()
         {
-            base.OnBodyRequirementMet();
+            base.OnInstall();
             Run.onClientGameOverGlobal += OnClientGameOverGlobal;
         }
 
-        public override void OnBodyRequirementBroken()
+        public override void OnUninstall()
         {
             Run.onClientGameOverGlobal -= OnClientGameOverGlobal;
-            base.OnBodyRequirementBroken();
+            base.OnUninstall();
         }
 
         private void OnClientGameOverGlobal(Run run, RunReport runReport)
@@ -32,10 +32,14 @@ namespace AlternatePods.Achievements.Shared
                 DifficultyDef difficultyDef = DifficultyCatalog.GetDifficultyDef(runReport.ruleBook.FindDifficulty());
                 if (difficultyDef != null && difficultyDef.countsAsHardMode)
                 {
-                    var bodyName = BodyCatalog.FindBodyIndex(userProfile.GetSurvivorPreference().bodyPrefab.name);
-                    if (userProfile.loadout.bodyLoadoutManager.GetReadOnlyBodyLoadout(bodyName).skinPreference > 0)
+                    var survivorPreference = userProfile.GetSurvivorPreference();
+                    if (survivorPreference != null)
                     {
-                        Grant();
+                        var bodyName = BodyCatalog.FindBodyIndex(survivorPreference.bodyPrefab.name);
+                        if (userProfile.loadout.bodyLoadoutManager.GetReadOnlyBodyLoadout(bodyName)?.skinPreference > 0)
+                        {
+                            Grant();
+                        }
                     }
                 }
             }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Bandit2
 {
-    [RegisterAchievement("Bandit2ClearGameMonsoonWithAlternateSkin", "PodMod.Bandit2.Mastery", "CompleteThreeStages", null)]
+    [RegisterAchievement("Bandit2ClearGameMonsoonWithAlternateSkin", "PodMod.Bandit2.Mastery", "Skins.Bandit2.Alt1", null)]
     public class Bandit2ClearGameMonsoonWithAlternateSkinAchievement : BasePerSurvivorClearGameMonsoonWithAlternateSkinAchievement
     {
         public override string NameToken => "PODMOD_BANDIT2MASTERY";

@@ -16,21 +16,10 @@ namespace AlternatePods.Achievements.Bandit2
         {
             return BodyCatalog.FindBodyIndex("Bandit2Body");
         }
-
-        public override void OnBodyRequirementMet()
-        {
-            base.OnBodyRequirementMet();
-            Run.onClientGameOverGlobal += OnClientGameOverGlobal;
-        }
-
-        public override void OnBodyRequirementBroken()
-        {
-            base.OnBodyRequirementBroken();
-            Run.onClientGameOverGlobal -= OnClientGameOverGlobal;
-        }
         public override bool ShouldGrant(RunReport runReport)
         {
-            return runReport.gameEnding == GameEndingCatalog.FindGameEndingDef("MainEnding");
+            return runReport.gameEnding == GameEndingCatalog.FindGameEndingDef("MainEnding")
+                && localUser.cachedMaster.inventory.GetEquipmentIndex() == DLC1Content.Equipment.MultiShopCard.equipmentIndex;
         }
     }
 }

@@ -10,13 +10,14 @@ namespace AlternatePods
 {
     public class PaintJob : PodModPodBase
     {
-        public override string podName => "PaintJob";
-        public override string podToken => "PODMOD_SHARED_PAINTJOB";
-        public override Texture2D icon => null;
+        public override string PodName => "PaintJob";
+        public override string PodToken => "PODMOD_SHARED_PAINTJOB";
+        public override Texture2D Icon => null;
+        public override UnlockableDef UnlockableDef => CreateUnlockableDef("PodMod.Shared.Paintjob", "BEATGAMEONMONSOONWITHALTSKIN");
 
         public override GameObject CreatePodPrefab()
         {
-            var podPrefabInstance = PrefabAPI.InstantiateClone(Assets.genericPodPrefab, podName, true);
+            var podPrefabInstance = PrefabAPI.InstantiateClone(Assets.genericPodPrefab, PodName, true);
             //var childLoc = pod.transform.Find("Base/mdlEscapePod").GetComponent<ChildLocator>();
 
             var podObj = podPrefabInstance.transform.Find("Base/mdlEscapePod/EscapePodArmature/Base/EscapePodMesh");
@@ -26,7 +27,7 @@ namespace AlternatePods
             module.meshFilter = meshFilter;
             module.meshRenderer = meshRenderer;
             module.vehicleSeat = podPrefabInstance.GetComponent<VehicleSeat>();
-            podPrefab = podPrefabInstance;
+            PodPrefab = podPrefabInstance;
             return podPrefabInstance;
         }
 

@@ -10,14 +10,15 @@ namespace AlternatePods
 {
     public class RoboPod : PodModPodBase
     {
-        public override string podName => "RoboPod";
-        public override string podToken => "PODMOD_SHARED_NOPOD";
-        public override Texture2D icon => null;
+        public override string PodName => "RoboPod";
+        public override string PodToken => "PODMOD_SHARED_NOPOD";
+        public override Texture2D Icon => null;
+        public override UnlockableDef UnlockableDef => CreateUnlockableDef("PodMod.Shared.RoboPod", "PODMOD_STARTRUNASTOOLBOT");
 
         public override GameObject CreatePodPrefab()
         {
-            var podPrefabInstance = PrefabAPI.InstantiateClone(Assets.roboCratePodPrefab, podName, true);
-            podPrefab = podPrefabInstance;
+            var podPrefabInstance = PrefabAPI.InstantiateClone(Assets.roboCratePodPrefab, PodName, true);
+            PodPrefab = podPrefabInstance;
             return podPrefabInstance;
         }
 

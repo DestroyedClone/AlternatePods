@@ -9,7 +9,7 @@ namespace AlternatePods
 {
     public class SharedMain : PodModCharBase
     {
-        public override GameObject bodyPrefab => null;
+        public override GameObject BodyPrefab => null;
         public override void AddPodsToPodChar()
         {
         }

@@ -126,7 +126,7 @@ namespace AlternatePods
                     //_logger.LogMessage($"User has pointer, skillName: {podName}");
                     if (podName == "PODMOD_SHARED_NOPOD")
                     {
-                        //_logger.LogMessage("Podname is nopod, not replacing.");
+                        body.preferredPodPrefab = null;
                     }
                     else
                     {
