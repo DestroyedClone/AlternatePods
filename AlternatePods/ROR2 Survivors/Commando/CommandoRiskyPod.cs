@@ -10,7 +10,7 @@ namespace AlternatePods.ROR2_Survivors.Commando
     {
         public override string PodName => "Mastery";
 
-        public override string PodToken => "COMMANDO_MASTERY";
+        public override string PodToken => "PODMOD_COMMANDO_MASTERY";
 
         public override Texture2D Icon => throw new NotImplementedException();
 

@@ -11,7 +11,7 @@ namespace AlternatePods.ROR2_Survivors.Captain
     {
         public override string PodName => "Mastery";
 
-        public override string PodToken => "CAPTAIN_MASTERY";
+        public override string PodToken => "PODMOD_CAPTAIN_MASTERY";
 
         public override Texture2D Icon => throw new NotImplementedException();
 

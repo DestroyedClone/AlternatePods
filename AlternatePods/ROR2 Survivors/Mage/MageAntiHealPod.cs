@@ -12,7 +12,7 @@ namespace AlternatePods.ROR2_Survivors.Mage
     {
         public override string PodName => "AntiHeal";
 
-        public override string PodToken => "PODMOD_MAGE_ANTIHEA";
+        public override string PodToken => "PODMOD_MAGE_ANTIHEAL";
 
         public override Texture2D Icon => throw new NotImplementedException();
 

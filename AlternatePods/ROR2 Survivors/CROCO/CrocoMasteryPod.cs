@@ -11,7 +11,7 @@ namespace AlternatePods.ROR2_Survivors.CROCO
     {
         public override string PodName => "CROCO_MASTERY";
 
-        public override string PodToken => "CROCO_MASTERY";
+        public override string PodToken => "PODMOD_CROCO_MASTERY";
 
         public override BaseModdedAchievement Achievement => new CrocoClearGameMonsoonWithAlternateSkinAchievement();
 

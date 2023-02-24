@@ -11,7 +11,7 @@ namespace AlternatePods.ROR2_Survivors.Commando
     {
         public override string PodName => "Logistics";
 
-        public override string PodToken => "COMMANDO_LOGISTICS";
+        public override string PodToken => "PODMOD_COMMANDO_LOGISTICS";
 
         public override Texture2D Icon => throw new NotImplementedException();
 

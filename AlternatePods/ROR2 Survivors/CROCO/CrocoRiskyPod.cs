@@ -11,7 +11,7 @@ namespace AlternatePods.ROR2_Survivors.CROCO
     {
         public override string PodName => "Risky";
 
-        public override string PodToken => "CROCO_RISKY";
+        public override string PodToken => "PODMOD_CROCO_RISKY";
 
         public override BaseModdedAchievement Achievement => new CrocoClearGameMonsoonWithRiskyRunAchievement();
 

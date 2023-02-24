@@ -11,7 +11,7 @@ namespace AlternatePods.ROR2_Survivors.Huntress
     {
         public override string PodName => "Risky";
 
-        public override string PodToken => "HUNTRESS_RISKY";
+        public override string PodToken => "PODMOD_HUNTRESS_RISKY";
 
         public override Texture2D Icon => throw new NotImplementedException();
         public override BaseModdedAchievement Achievement => new HuntressClearGameMonsoonWithRiskyRunAchievement();

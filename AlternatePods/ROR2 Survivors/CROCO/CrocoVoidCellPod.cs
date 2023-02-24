@@ -11,7 +11,7 @@ namespace AlternatePods.ROR2_Survivors.CROCO
     {
         public override string PodName => "VoidCell";
 
-        public override string PodToken => "CROCO_VOIDCELL";
+        public override string PodToken => "PODMOD_CROCO_VOIDCELL";
 
         public override BaseModdedAchievement Achievement => new CrocoBeatArenaAchievement();
 
