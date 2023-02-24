@@ -16,22 +16,21 @@ namespace AlternatePods.Achievements.Mage
         public override void OnBodyRequirementMet()
         {
             base.OnBodyRequirementMet();
-            CharacterBody.onBodyInventoryChangedGlobal += CharacterBody_onBodyInventoryChangedGlobal;
+            Inventory.onInventoryChangedGlobal += Inventory_onInventoryChangedGlobal;
         }
 
         public override void OnBodyRequirementBroken()
         {
-            CharacterBody.onBodyInventoryChangedGlobal -= CharacterBody_onBodyInventoryChangedGlobal;
+            Inventory.onInventoryChangedGlobal -= Inventory_onInventoryChangedGlobal;
             base.OnBodyRequirementBroken();
         }
 
-        private void CharacterBody_onBodyInventoryChangedGlobal(CharacterBody characterBody)
+        private void Inventory_onInventoryChangedGlobal(Inventory inventory)
         {
-            if (characterBody.equipmentSlot.equipmentIndex == EquipmentIndex)
+            if (inventory.currentEquipmentIndex == EquipmentIndex)
             {
                 base.Grant();
             }
         }
-
     }
 }
