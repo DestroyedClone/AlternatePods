@@ -25,6 +25,7 @@ namespace AlternatePods.Achievements.Mage
 
         public override void OnBodyRequirementBroken()
         {
+            Inventory.onInventoryChangedGlobal -= Inventory_onInventoryChangedGlobal;
             base.OnBodyRequirementBroken();
         }
 
