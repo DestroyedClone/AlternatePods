@@ -6,10 +6,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Captain
 {
-    [RegisterAchievement("CaptainClearGameNoPurchase", "PodMod.Captain.NoPurchase", "CompleteMainEnding", typeof(CaptainClearGameNoPurchaseServerAchievement))]
+    [RegisterAchievement("PodMod_CaptainClearGameNoPurchase", "PodMod.Captain.NoPurchase", "CompleteMainEnding", typeof(CaptainClearGameNoPurchaseServerAchievement))]
     public class CaptainClearGameNoPurchaseAchievement : BaseModdedAchievement
     {
-        public override string NameToken => "PODMOD_CAPTAINSECRET";
+        public override string NameToken => "PODMOD_CAPTAINCLEARGAMENOPURCHASE";
 
         public override string Identifier => "PodMod.Captain.NoPurchase";
 

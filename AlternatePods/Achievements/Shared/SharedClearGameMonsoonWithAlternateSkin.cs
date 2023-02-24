@@ -6,9 +6,13 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Shared
 {
-    [RegisterAchievement("SharedClearGameMonsoonWithAlternateSkin", "PodMod.Shared.Paintjob", "Characters.Captain", null)]
-    public class SharedClearGameMonsoonWithAlternateSkinAchievement : BaseAchievement
+    [RegisterAchievement("PodMod_SharedClearGameMonsoonWithAlternateSkin", "PodMod.Shared.Paintjob", "Characters.Captain", null)]
+    public class SharedClearGameMonsoonWithAlternateSkinAchievement : BaseModdedAchievement
     {
+        public override string NameToken => "PodMod_SharedClearGameMonsoonWithAlternateSkin";
+
+        public override string Identifier => "PodMod.Shared.Paintjob";
+
         public override void OnInstall()
         {
             base.OnInstall();

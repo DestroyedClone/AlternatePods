@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using BepInEx.Configuration;
 using UnityEngine.AddressableAssets;
 using System;
+using AlternatePods.Achievements;
+using AlternatePods.Achievements.Shared;
 
 namespace AlternatePods
 {
@@ -13,7 +15,7 @@ namespace AlternatePods
         public override string PodName => "SurvivorPod";
         public override string PodToken => "PODMOD_SHARED_SURVIVORPOD";
         public override Texture2D Icon => null;
-        public override UnlockableDef UnlockableDef => CreateUnlockableDef("PodMod.Shared.SurvivorPod", "PODMOD_STAYINPODFORONEMINUTE");
+        public override BaseModdedAchievement Achievement => new SharedStayInPodForOneMinuteAchievement();
 
         public override GameObject CreatePodPrefab()
         {

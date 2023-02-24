@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Mage
 {
-    [RegisterAchievement("MageRecyclerVulture", "PodMod.Mage.RecyclerVulture", "FreeMage", null)]
+    [RegisterAchievement("PodMod_MageRecyclerVulture", "PodMod.Mage.RecyclerVulture", "FreeMage", null)]
     public class MageRecyclerVultureAchievement : BaseModdedAchievement
     {
         public override string NameToken => "PODMOD_MAGERECYCLERVULTURE";

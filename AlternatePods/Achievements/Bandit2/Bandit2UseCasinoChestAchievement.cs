@@ -6,10 +6,10 @@ using RoR2;
 
 namespace AlternatePods.Achievements.Bandit2
 {
-    [RegisterAchievement("Bandit2UseCasinoChest", "PodMod.Bandit2.Gamble", "CompleteThreeStages", typeof(Bandit2UseCasinoChestServerAchievement))]
+    [RegisterAchievement("PodMod_Bandit2UseCasinoChest", "PodMod.Bandit2.Gamble", "CompleteThreeStages", typeof(Bandit2UseCasinoChestServerAchievement))]
     public class Bandit2UseCasinoChestAchievement : BaseModdedAchievement
     {
-        public override string NameToken => "BANDIT2GETRANDOMITEMS";
+        public override string NameToken => "PODMOD_BANDIT2USECASINOCHEST";
 
         public override string Identifier => "PodMod.Bandit2.Gamble";
         public override BodyIndex LookUpRequiredBodyIndex()

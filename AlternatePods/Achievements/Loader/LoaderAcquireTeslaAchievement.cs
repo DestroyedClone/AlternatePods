@@ -5,10 +5,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Loader
 {
-    [RegisterAchievement("LoaderAcquireTesla", "PodMod.Loader.Tesla", "DefeatSuperRoboBallBoss", null)]
+    [RegisterAchievement("PodMod_LoaderAcquireTesla", "PodMod.Loader.Tesla", "DefeatSuperRoboBallBoss", null)]
     internal class LoaderAcquireTeslaAchievement : BaseModdedAchievement
     {
-        public override string NameToken => "PODMOD_LOADERTESLA";
+        public override string NameToken => "PODMOD_LOADERACQUIRETESLA";
 
         public override string Identifier => "PodMod.Loader.Tesla";
 

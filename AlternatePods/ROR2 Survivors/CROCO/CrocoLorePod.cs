@@ -13,7 +13,7 @@ namespace AlternatePods.ROR2_Survivors.CROCO
 
         public override string PodToken => "CROCO_LORE";
 
-        public override BaseModdedAchievement Achievement => new CrocoVoidPrisonAchievement();
+        public override BaseModdedAchievement Achievement => new CrocoDieToVoidPrisonAchievement();
 
         public override Texture2D Icon => throw new NotImplementedException();
     }

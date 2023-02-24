@@ -5,10 +5,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Huntress
 {
-    [RegisterAchievement("HuntressClearGameMonsoonWithRiskyRun", "PodMod.Huntress.Risky", null, null)]
+    [RegisterAchievement("PodMod_HuntressClearGameMonsoonWithRiskyRun", "PodMod.Huntress.Risky", null, null)]
     public class HuntressClearGameMonsoonWithRiskyRunAchievement : BasePerSurvivorClearGameMonsoonWithRiskyRunAchievement
     {
-        public override string NameToken => "PODMOD_HUNTRESSRISKY";
+        public override string NameToken => "PODMOD_HUNTRESSCLEARGAMEMONSOONWITHRISKYRUN";
 
         public override string Identifier => "PodMod.Huntress.Risky";
 

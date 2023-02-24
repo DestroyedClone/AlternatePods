@@ -6,9 +6,12 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Shared
 {
-    [RegisterAchievement("ResultWithZeroCash", "PodMod.Shared.NoPod", null, null)]
-    public class ResultWithZeroCashAchievement : BaseAchievement
+    [RegisterAchievement("PodMod_SharedPurchaseResultWithZeroCash", "PodMod.Shared.NoPod", null, null)]
+    public class SharedPurchaseResultWithZeroCashAchievement : BaseModdedAchievement
     {
+        public override string NameToken => "PodMod_SharedPurchaseResultWithZeroCash";
+
+        public override string Identifier => "PodMod.Shared.NoPod";
         public override void OnInstall()
         {
             base.OnInstall();

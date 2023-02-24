@@ -10,12 +10,12 @@ using EntityStates.ParentEgg;
 
 namespace AlternatePods.Achievements.Engi
 {
-    [RegisterAchievement("EngiClearGameWithTechItemsOnly", "PodMod.Engi.Tech", "Complete30StagesCareer", null)]
+    [RegisterAchievement("PodMod_EngiClearGameWithTechItemsOnly", "PodMod.Engi.Tech", "Complete30StagesCareer", null)]
     public class EngiClearGameWithTechItemsOnlyAchievement : BaseModdedEndingAchievement
     {
         public bool hasPickedUpBioItems = false;
 
-        public override string NameToken => "PODMOD_ENGITECH";
+        public override string NameToken => "PODMOD_ENGICLEARGAMEWITHTECHITEMSONLY";
 
         public override string Identifier => "PodMod.Engi.Tech";
         public override BodyIndex LookUpRequiredBodyIndex()

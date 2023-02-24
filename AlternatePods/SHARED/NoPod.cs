@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using BepInEx.Configuration;
 using UnityEngine.AddressableAssets;
 using System;
+using AlternatePods.Achievements;
+using AlternatePods.Achievements.Shared;
 
 namespace AlternatePods.SHARED
 {
@@ -15,7 +17,7 @@ namespace AlternatePods.SHARED
         public override string PodToken => "PODMOD_SHARED_NOPOD";
 
         public override Texture2D Icon => null;
-        public override UnlockableDef UnlockableDef => CreateUnlockableDef("PodMod.Shared.NoPod", "RESULTWITHZEROCASH");
+        public override BaseModdedAchievement Achievement => new SharedPurchaseResultWithZeroCashAchievement();
 
         public override GameObject CreatePodPrefab()
         {

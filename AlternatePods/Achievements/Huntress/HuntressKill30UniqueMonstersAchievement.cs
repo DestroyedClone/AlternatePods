@@ -6,10 +6,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Huntress
 {
-    [RegisterAchievement("HuntressChecklist", "PodMod.Huntress.Checklist", null, typeof(HuntressChecklistServerAchievement))]
-    public class HuntressChecklistAchievement : BaseModdedAchievement
+    [RegisterAchievement("PodMod_HuntressKill30UniqueMonsters", "PodMod.Huntress.Checklist", null, typeof(HuntressChecklistServerAchievement))]
+    public class HuntressKill30UniqueMonstersAchievement : BaseModdedAchievement
     {
-        public override string NameToken => "PODMOD_HUNTRESSCHECKLIST";
+        public override string NameToken => "PODMOD_HUNTRESSKILL30UNIQUEMONSTERS";
 
         public override string Identifier => "PodMod.Huntress.Checklist";
 

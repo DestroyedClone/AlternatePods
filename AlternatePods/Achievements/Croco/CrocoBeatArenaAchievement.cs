@@ -6,10 +6,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Croco
 {
-    [RegisterAchievement("CrocoVoidFields", "PodMod.Croco.VoidCell", "BeatArena", typeof(BeatArenaServerAchievement))]
-    internal class CrocoVoidFieldsAchievement : BaseModdedAchievement
+    [RegisterAchievement("PodMod_CrocoBeatArena", "PodMod.Croco.VoidCell", "BeatArena", typeof(CrocoBeatArenaServerAchievement))]
+    internal class CrocoBeatArenaAchievement : BaseModdedAchievement
     {
-        public override string NameToken => "PODMOD_CROCOVOIDCELL";
+        public override string NameToken => "PODMOD_CROCOBEATARENA";
 
         public override string Identifier => "PodMod.Croco.VoidCell";
         public override BodyIndex LookUpRequiredBodyIndex()
@@ -29,7 +29,7 @@ namespace AlternatePods.Achievements.Croco
             base.OnBodyRequirementBroken();
         }
 
-        private class BeatArenaServerAchievement : BaseServerAchievement
+        private class CrocoBeatArenaServerAchievement : BaseServerAchievement
         {
             public override void OnInstall()
             {

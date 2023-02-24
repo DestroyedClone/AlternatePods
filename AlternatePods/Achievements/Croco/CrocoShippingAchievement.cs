@@ -5,10 +5,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Croco
 {
-    [RegisterAchievement("CrocoShipping", "PodMod.Croco.Shipping", "BeatArena", null)]
+    [RegisterAchievement("PodMod_CrocoShipping", "PodMod.Croco.Shipping", "BeatArena", null)]
     public class CrocoShippingAchievement : BaseModdedAchievement
     {
-        public override string NameToken => "PODMOD_CROCOOPENSHIPPINGREQUEST";
+        public override string NameToken => "PODMOD_CROCOSHIPPING";
 
         public override string Identifier => "PodMod.Croco.Shipping";
         public override BodyIndex LookUpRequiredBodyIndex()

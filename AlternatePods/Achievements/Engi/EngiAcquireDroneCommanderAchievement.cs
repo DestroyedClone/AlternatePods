@@ -10,10 +10,10 @@ using EntityStates.ParentEgg;
 
 namespace AlternatePods.Achievements.Engi
 {
-    [RegisterAchievement("EngiAcquireDroneCommander", "PodMod.Engi.Drone", "Complete30StagesCareer", null)]
+    [RegisterAchievement("PodMod_EngiAcquireDroneCommander", "PodMod.Engi.Drone", "Complete30StagesCareer", null)]
     public class EngiAcquireDroneCommanderAchievement : BaseAcquirePickupAchievement
     {
-        public override string NameToken => "PODMOD_ENGIDRONE";
+        public override string NameToken => "PODMOD_ENGIACQUIREDRONECOMMANDER";
 
         public override string Identifier => "PodMod.Engi.Drone";
         public override BodyIndex LookUpRequiredBodyIndex()

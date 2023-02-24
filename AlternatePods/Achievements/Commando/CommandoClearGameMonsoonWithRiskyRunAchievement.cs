@@ -5,10 +5,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Commando
 {
-    [RegisterAchievement("CommandoClearGameMonsoonWithRiskyRun", "PodMod.Commando.Risky", null, null)]
+    [RegisterAchievement("PodMod_CommandoClearGameMonsoonWithRiskyRun", "PodMod.Commando.Risky", null, null)]
     internal class CommandoClearGameMonsoonWithRiskyRunAchievement : BasePerSurvivorClearGameMonsoonWithRiskyRunAchievement
     {
-        public override string NameToken => "PODMOD_COMMANDORISKY";
+        public override string NameToken => "PODMOD_COMMANDOCLEARGAMEMONSOONWITHRISKYRUN";
 
         public override string Identifier => "PodMod.Commando.Risky";
 

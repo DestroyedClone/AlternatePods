@@ -5,12 +5,12 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Mage
 {
-    [RegisterAchievement("MagePickupEliteBlue", "PodMod.Mage.EliteBlue", "FreeMage", null)]
-    public class MagePickupEliteBlueAchievement : BaseMagePickupEquipmentAchievement
+    [RegisterAchievement("PodMod_MagePickupEliteLightning", "PodMod.Mage.EliteBlue", "FreeMage", null)]
+    public class MagePickupEliteLightningAchievement : BaseMagePickupEquipmentAchievement
     {
         public override EquipmentIndex EquipmentIndex => RoR2Content.Elites.Lightning.eliteEquipmentDef.equipmentIndex;
 
-        public override string NameToken => "PODMOD_MAGEBLUE";
+        public override string NameToken => "PODMOD_MAGEPICKUPELITELIGHTNING";
 
         public override string Identifier => "PodMod.Mage.EliteBlue";
     }

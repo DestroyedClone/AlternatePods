@@ -8,10 +8,10 @@ using UnityEngine;
 
 namespace AlternatePods.Achievements.Captain
 {
-    [RegisterAchievement("CaptainAhoyAfterHack", "PodMod.Captain.AhoyAfterPurchase", "CompleteMainEnding", typeof(CaptainAhoyAfterHackServerAchievement))]
+    [RegisterAchievement("PodMod_CaptainAhoyAfterHack", "PodMod.Captain.AhoyAfterPurchase", "CompleteMainEnding", typeof(CaptainAhoyAfterHackServerAchievement))]
     public class CaptainAhoyAfterHackAchievement : BaseModdedAchievement
     {
-        public override string NameToken => "CaptainAhoyAfterHack";
+        public override string NameToken => "PODMOD_CAPTAINAHOYAFTERHACK";
 
         public override string Identifier => "PodMod.Captain.AhoyAfterPurchase";
 

@@ -14,6 +14,6 @@ namespace AlternatePods.ROR2_Survivors.Huntress
         public override string PodToken => "PODMOD_HUNTRESS_BOUNTY";
 
         public override Texture2D Icon => throw new NotImplementedException();
-        public override BaseModdedAchievement Achievement => new HuntressChecklistAchievement();
+        public override BaseModdedAchievement Achievement => new HuntressKill30UniqueMonstersAchievement();
     }
 }

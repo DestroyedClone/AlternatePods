@@ -16,6 +16,6 @@ namespace AlternatePods.ROR2_Survivors.Mage
 
         public override Texture2D Icon => throw new NotImplementedException();
 
-        public override BaseModdedAchievement Achievement => new MagePickupEliteHealingAchievement();
+        public override BaseModdedAchievement Achievement => new MagePickupEliteEarthAchievement();
     }
 }

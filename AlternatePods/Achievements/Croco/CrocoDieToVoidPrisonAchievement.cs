@@ -6,10 +6,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Croco
 {
-    [RegisterAchievement("CrocoVoidPrison", "PodMod.Croco.Lore", "BeatArena", null)]
-    public class CrocoVoidPrisonAchievement : BaseModdedAchievement
+    [RegisterAchievement("PodMod_CrocoDieToVoidPrison", "PodMod.Croco.Lore", "BeatArena", null)]
+    public class CrocoDieToVoidPrisonAchievement : BaseModdedAchievement
     {
-        public override string NameToken => "PODMOD_CROCOLORE";
+        public override string NameToken => "PODMOD_CROCODIETOVOIDPRISON";
 
         public override string Identifier => "PodMod.Croco.Lore";
         public override BodyIndex LookUpRequiredBodyIndex()

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Commando
 {
-    [RegisterAchievement("CommandoLogistics", "PodMod.Commando.Logistics", null, null)]
+    [RegisterAchievement("PodMod_CommandoLogistics", "PodMod.Commando.Logistics", null, null)]
     internal class CommandoLogisticsAchievement : BaseModdedAchievement
     {
         public override string NameToken => "PODMOD_COMMANDOLOGISTICS";

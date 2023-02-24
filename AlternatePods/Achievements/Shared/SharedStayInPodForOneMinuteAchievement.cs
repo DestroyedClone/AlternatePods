@@ -7,9 +7,12 @@ using UnityEngine;
 
 namespace AlternatePods.Achievements.Shared
 {
-    [RegisterAchievement("SharedClearGameMonsoonWithAlternateSkin", "PodMod.Shared.SurvivorPod", null, null)]
-    public class StayInPodForOneMinuteAchievement : BaseAchievement
+    [RegisterAchievement("PodMod_SharedStayInPodForOneMinute", "PodMod.Shared.SurvivorPod", null, null)]
+    public class SharedStayInPodForOneMinuteAchievement : BaseModdedAchievement
     {
+        public override string NameToken => "PodMod_SharedStayInPodForOneMinute";
+
+        public override string Identifier => "PodMod.Shared.SurvivorPod";
         private static readonly float requirement = 30f;
 
         private GameObject characterBodyObject;
@@ -56,7 +59,7 @@ namespace AlternatePods.Achievements.Shared
         private void RoR2Application_onFixedUpdate()
         {
             stopwatch += Time.fixedDeltaTime;
-            if (StayInPodForOneMinuteAchievement.requirement <= stopwatch && canGive)
+            if (SharedStayInPodForOneMinuteAchievement.requirement <= stopwatch && canGive)
             {
                 Grant();
             }

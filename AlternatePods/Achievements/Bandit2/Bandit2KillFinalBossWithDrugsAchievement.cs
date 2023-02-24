@@ -6,10 +6,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Bandit2
 {
-    [RegisterAchievement("Bandit2KillBossWithDrugs", "PodMod.Bandit2.Drugs", "CompleteThreeStages", typeof(Bandit2KillBossWithDrugsServerAchievement))]
-    public class Bandit2KillBossWithDrugsAchievement : BaseModdedAchievement
+    [RegisterAchievement("PodMod_Bandit2KillFinalBossWithDrugs", "PodMod.Bandit2.Drugs", "CompleteThreeStages", typeof(Bandit2KillBossWithDrugsServerAchievement))]
+    public class Bandit2KillFinalBossWithDrugsAchievement : BaseModdedAchievement
     {
-        public override string NameToken => "PODMOD_BANDIT2KILLBOSSWITHDRUGS";
+        public override string NameToken => "PODMOD_BANDIT2KILLFINALBOSSWITHDRUGS";
 
         public override string Identifier => "PodMod.Bandit2.Drugs";
         public override BodyIndex LookUpRequiredBodyIndex()

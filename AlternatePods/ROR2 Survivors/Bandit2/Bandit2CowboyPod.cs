@@ -15,6 +15,6 @@ namespace AlternatePods.ROR2_Survivors.Bandit2
 
         public override Texture2D Icon => throw new NotImplementedException();
 
-        public override BaseModdedAchievement Achievement => new Bandit2KillBossWithDrugsAchievement();
+        public override BaseModdedAchievement Achievement => new Bandit2KillFinalBossWithDrugsAchievement();
     }
 }

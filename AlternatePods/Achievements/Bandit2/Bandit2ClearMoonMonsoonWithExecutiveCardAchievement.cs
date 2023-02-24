@@ -6,10 +6,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Bandit2
 {
-    [RegisterAchievement("Bandit2ClearMoonMonsoonWithExecutiveCard", "PodMod.Bandit2.Lore", "CompleteThreeStages", null)]
+    [RegisterAchievement("PodMod_Bandit2ClearMoonMonsoonWithExecutiveCard", "PodMod.Bandit2.Lore", "CompleteThreeStages", null)]
     public class Bandit2ClearMoonMonsoonWithExecutiveCardAchievement : BaseModdedEndingAchievement
     {
-        public override string NameToken => "PODMOD_BANDIT2LORE";
+        public override string NameToken => "PODMOD_BANDIT2CLEARMOONMONSOONWITHEXECUTIVECARD";
 
         public override string Identifier => "PodMod.Bandit2.Lore";
         public override BodyIndex LookUpRequiredBodyIndex()

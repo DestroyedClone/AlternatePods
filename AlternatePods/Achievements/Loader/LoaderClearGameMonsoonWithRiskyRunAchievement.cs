@@ -5,10 +5,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Loader
 {
-    [RegisterAchievement("LoaderClearGameMonsoonWithRiskyRun", "PodMod.Loader.Risky", "DefeatSuperRoboBallBoss", null)]
+    [RegisterAchievement("PodMod_LoaderClearGameMonsoonWithRiskyRun", "PodMod.Loader.Risky", "DefeatSuperRoboBallBoss", null)]
     public class LoaderClearGameMonsoonWithRiskyRunAchievement : BasePerSurvivorClearGameMonsoonWithRiskyRunAchievement
     {
-        public override string NameToken => "PODMOD_LOADERRISKY";
+        public override string NameToken => "PODMOD_LOADERCLEARGAMEMONSOONWITHRISKYRUN";
 
         public override string Identifier => "PodMod.Loader.Risky";
 

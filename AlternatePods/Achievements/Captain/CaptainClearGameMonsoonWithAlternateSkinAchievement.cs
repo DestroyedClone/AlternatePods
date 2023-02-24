@@ -5,10 +5,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Bandit2
 {
-    [RegisterAchievement("CaptainClearGameMonsoonWithAlternateSkin", "PodMod.Captain.Mastery", "Skins.Captain.Alt1", null)]
+    [RegisterAchievement("PodMod_CaptainClearGameMonsoonWithAlternateSkin", "PodMod.Captain.Mastery", "Skins.Captain.Alt1", null)]
     public class CaptainClearGameMonsoonWithAlternateSkinAchievement : BasePerSurvivorClearGameMonsoonWithAlternateSkinAchievement
     {
-        public override string NameToken => "PODMOD_CAPTAINMASTERY";
+        public override string NameToken => "PODMOD_CAPTAINCLEARGAMEMONSOONWITHALTERNATESKIN";
 
         public override string Identifier => "PodMod.Captain.Mastery";
 

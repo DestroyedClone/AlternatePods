@@ -15,6 +15,6 @@ namespace AlternatePods.ROR2_Survivors.Commando
 
         public override Texture2D Icon => throw new NotImplementedException();
 
-        public override BaseModdedAchievement Achievement => new CommandoFakerAchievement();
+        public override BaseModdedAchievement Achievement => new CommandoKillFinalBossAsFakerAchievement();
     }
 }

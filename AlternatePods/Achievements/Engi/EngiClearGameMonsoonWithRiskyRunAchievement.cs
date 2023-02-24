@@ -5,10 +5,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Engi
 {
-    [RegisterAchievement("EngiClearGameMonsoonWithRiskyRun", "PodMod.Engi.Risky", "BeatArena", null)]
+    [RegisterAchievement("PodMod_EngiClearGameMonsoonWithRiskyRun", "PodMod.Engi.Risky", "BeatArena", null)]
     internal class EngiClearGameMonsoonWithRiskyRunAchievement : BasePerSurvivorClearGameMonsoonWithRiskyRunAchievement
     {
-        public override string NameToken => "PODMOD_ENGIRISKY";
+        public override string NameToken => "PODMOD_ENGICLEARGAMEMONSOONWITHRISKYRUN";
 
         public override string Identifier => "PodMod.Engi.Risky";
         public override BodyIndex LookUpRequiredBodyIndex()

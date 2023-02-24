@@ -6,9 +6,12 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Shared
 {
-    [RegisterAchievement("StartRunAsToolbot", "PodMod.Shared.RoboPod", "RepeatFirstTeleporter")]
-    public class StartRunAsToolbotAchievement : BaseAchievement
+    [RegisterAchievement("PodMod_SharedStartRunAsToolbot", "PodMod.Shared.RoboPod", "RepeatFirstTeleporter")]
+    public class SharedStartRunAsToolbotAchievement : BaseModdedAchievement
     {
+        public override string NameToken => "PodMod_SharedStartRunAsToolbot";
+
+        public override string Identifier => "PodMod.Shared.RoboPod";
         private bool canGive = true;
 
         public override void OnInstall()

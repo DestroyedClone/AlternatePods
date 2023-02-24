@@ -6,10 +6,10 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Commando
 {
-    [RegisterAchievement("CommandoFaker", "PodMod.Commando.Faker", null, null)]
-    public class CommandoFakerAchievement : BaseModdedAchievement
+    [RegisterAchievement("PodMod_CommandoKillFinalBossAsFaker", "PodMod.Commando.Faker", null, null)]
+    public class CommandoKillFinalBossAsFakerAchievement : BaseModdedAchievement
     {
-        public override string NameToken => "PODMOD_COMMANDOFAKER";
+        public override string NameToken => "PODMOD_COMMANDOKILLFINALBOSSASFAKER";
 
         public override string Identifier => "PodMod.Commando.Faker";
         public override BodyIndex LookUpRequiredBodyIndex()
