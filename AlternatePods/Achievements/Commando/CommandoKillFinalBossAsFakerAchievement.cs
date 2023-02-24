@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AlternatePods.Achievements.Commando
 {
-    [RegisterAchievement("PodMod_CommandoKillFinalBossAsFaker", "PodMod.Commando.Faker", null, null)]
+    [RegisterAchievement("PodMod_CommandoKillFinalBossAsFaker", "PodMod.Commando.Faker", null, typeof(CommandoFakerServerAchievement))]
     public class CommandoKillFinalBossAsFakerAchievement : BaseModdedAchievement
     {
         public override string NameToken => "PODMOD_COMMANDOKILLFINALBOSSASFAKER";
