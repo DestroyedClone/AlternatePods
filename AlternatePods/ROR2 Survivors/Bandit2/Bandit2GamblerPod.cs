@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace AlternatePods.ROR2_Survivors.Bandit2
 {
-    internal class Bandit2Gambler : PodModPodBase
+    internal class Bandit2GamblerPod : PodModPodBase
     {//Gambler-themed. The drop pod is wooden, but there are 57-leaf clovers strung about. Lockboxes and small chests are inside of it. Pile of coins inside.
         public override string PodName => "Gambler";
 

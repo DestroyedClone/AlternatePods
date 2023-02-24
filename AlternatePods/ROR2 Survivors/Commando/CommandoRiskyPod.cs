@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace AlternatePods.ROR2_Survivors.Commando
 {
-    public class CommandoRiskyMod : PodModPodBase
+    public class CommandoRiskyPod : PodModPodBase
     {
         public override string PodName => "Mastery";
 

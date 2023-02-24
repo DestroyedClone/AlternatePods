@@ -4,6 +4,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using BepInEx.Configuration;
 using UnityEngine.AddressableAssets;
+using AlternatePods.ROR2_Survivors.Captain;
 
 namespace AlternatePods
 {
@@ -15,6 +16,13 @@ namespace AlternatePods
         public override void Init()
         {
             base.Init();
+        }
+
+        public override void AddPodsToPodChar()
+        {
+            PodBases.Add(new CaptainMasteryPod());
+            PodBases.Add(new CaptainPiratePod());
+            PodBases.Add(new CaptainSecretPod());
         }
     }
 }

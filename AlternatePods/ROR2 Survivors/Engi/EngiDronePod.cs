@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace AlternatePods.ROR2_Survivors.Engi
 {
-    public class EngiHumanPod : PodModPodBase
+    public class EngiDronePod : PodModPodBase
     {
         public override string PodName => "Drone";
 
