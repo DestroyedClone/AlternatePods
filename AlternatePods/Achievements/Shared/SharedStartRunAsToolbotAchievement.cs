@@ -14,11 +14,18 @@ namespace AlternatePods.Achievements.Shared
         public override string Identifier => "PodMod.Shared.RoboPod";
         private bool canGive = true;
 
-        public override void OnInstall()
+        public override void OnBodyRequirementMet()
         {
-            base.OnInstall();
+            base.OnBodyRequirementMet();
             Run.onRunStartGlobal += Run_onRunStartGlobal;
             VehicleSeat.onPassengerExitGlobal += VehicleSeat_onPassengerExitGlobal;
+        }
+
+        public override void OnBodyRequirementBroken()
+        {
+            Run.onRunStartGlobal -= Run_onRunStartGlobal;
+            VehicleSeat.onPassengerExitGlobal -= VehicleSeat_onPassengerExitGlobal;
+            base.OnBodyRequirementBroken();
         }
 
         private void Run_onRunStartGlobal(Run obj)
@@ -39,14 +46,5 @@ namespace AlternatePods.Achievements.Shared
                 Grant();
             }
         }
-
-        public override void OnUninstall()
-        {
-            Run.onRunStartGlobal -= Run_onRunStartGlobal;
-            VehicleSeat.onPassengerExitGlobal -= VehicleSeat_onPassengerExitGlobal;
-            base.OnUninstall();
-        }
-
-
     }
 }
